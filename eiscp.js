@@ -81,6 +81,8 @@ function iscp_to_command(iscp_message) {
 
                 // It's a range so we need to convert args from hex to decimal
                 result.argument = parseInt(value, 16);
+            } else if (command == "IFA" || command == "IFV") {
+                result.argument = value;
             }
         }
     });
