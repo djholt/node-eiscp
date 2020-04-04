@@ -20,7 +20,7 @@
     "url": "https://github.com/tillbaks/node-eiscp/issues"
   },
   "dependencies": {
-      "async":  "*",
-      "js-yaml": "*"
+    "async": "*",
+    "js-yaml": "^3.13.1"
   }
 }
